@@ -8,15 +8,21 @@ package exercicio.numero15;
 import java.util.Scanner;
 
 public class Classe {
-public static void main(String[] args) {
-	Scanner scanner = new Scanner(System.in);
-	
-	 String texto;
-	 
-	 System.out.println("Digite seu cadastro");
-	 texto = scanner.nextLine();
-	 
-	 if()
-	 
-}
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		String texto;
+
+		System.out.println("Digite seu cadastro");
+		texto = scanner.nextLine();
+
+		if (texto.length() > 50) {
+			System.out.println(false);
+		} else {
+			System.out.println(true);
+
+			scanner.close();
+		}
+
+	}
 }
