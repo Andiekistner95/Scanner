@@ -20,4 +20,4 @@ public class Classe {
 		System.out.println(numero);
 	}
 }
-//numero que tinha o valor 0.3 
+//numero tinha o valor 0.3 até receber o valor de outroNumero (0.2)
