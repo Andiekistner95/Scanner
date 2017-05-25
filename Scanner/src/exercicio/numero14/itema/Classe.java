@@ -12,11 +12,12 @@ import java.util.Scanner;
 
 public class Classe {
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 
 		String nome;
 		int ano;
-		String telefone;
+		int telefone;
 		String cidade;
 		
 		System.out.println("Digite seu nome");
@@ -26,12 +27,12 @@ public class Classe {
 		ano = scanner.nextInt();
 		
 		System.out.println("Digite seu telefone");
-		telefone = scanner.next();
+		telefone = scanner.nextInt();
 		
 		System.out.println("Digite sua cidade de nascimento");
-		cidade = scanner.nextLine();
-		
-		 scanner.close();
+		cidade = scanner.next();
+				
+		scanner.close();
 		
 	}
 }
